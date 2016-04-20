@@ -15,7 +15,7 @@ namespace Sweepstakes_Erick
         }
         public override string ToString()
         {
-            return StringToManipulate.ToString();
+            return StringToManipulate;
         }
     }
 }

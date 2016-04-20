@@ -8,5 +8,6 @@ namespace Sweepstakes_Erick
 {
     class SystemLinkedListString : ICustomString
     {
+
     }
 }
