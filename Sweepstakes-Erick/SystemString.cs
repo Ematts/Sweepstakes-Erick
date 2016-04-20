@@ -17,5 +17,12 @@ namespace Sweepstakes_Erick
         {
             return StringToManipulate;
         }
+        public void Insert(int startIndex, string stringToInsert)
+        {
+            StringToManipulate.Insert(startIndex, stringToInsert);
+        }
+
+        
     }
+
 }
