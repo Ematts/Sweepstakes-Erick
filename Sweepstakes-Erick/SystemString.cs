@@ -22,7 +22,14 @@ namespace Sweepstakes_Erick
             StringToManipulate.Insert(startIndex, stringToInsert);
         }
 
-        
+        public void Remove(int startIndex, int numCharsToRemove)
+        {
+            StringToManipulate.Remove(startIndex, numCharsToRemove);
+        }
+        public int Length()
+        {
+            return StringToManipulate.Length;
+        }
     }
 
 }
