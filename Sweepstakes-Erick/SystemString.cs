@@ -15,7 +15,7 @@ namespace Sweepstakes_Erick
         }
         public override string ToString()
         {
-            return StringToManipulate;
+            return StringToManipulate.ToString();
         }
         public void Insert(int startIndex, string stringToInsert)
         {
@@ -31,5 +31,4 @@ namespace Sweepstakes_Erick
             return StringToManipulate.Length;
         }
     }
-
 }
